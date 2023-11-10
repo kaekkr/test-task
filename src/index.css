@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+	padding-top: 2.5rem /* 40px */;
+	padding-bottom: 2.5rem /* 40px */;
+	padding-left: 3.5rem /* 56px */;
+	padding-right: 3.5rem /* 56px */;
+}
+
+input::placeholder {
+	color: white
+}
